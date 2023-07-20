@@ -1,4 +1,4 @@
-div.card
+/* div.card
 {
    margin-left:50px;
    margin-top: 50px;
@@ -10,7 +10,7 @@ div.card
    border-radius:1px;
 }
 .button1 {
-    background-color:white; /* Green */
+    background-color:white; 
     border: 2px green;
     color: green;
     padding: 15px 33px;
@@ -35,4 +35,49 @@ div.card
     cursor: pointer;
     border:2px solid #f44336
 }
-    
+     */
+
+     .container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        /* height: calc(100vh - 6rem); */
+        
+      }
+  
+      .card {
+        margin: 10px;
+        border-radius: 10px;
+        flex-basis: 300px;
+        padding: 15px;
+      }
+  
+      .card-body {
+        font-size: 30px;
+        font-weight: bold;
+        color: green;
+      }
+  
+      .sub-text {
+        font-weight: 300;
+        font-size: 25px;
+        color: grey;
+      }
+  
+      .btn-primary {
+        border-radius: 8px;
+      }
+  
+      @media screen and (max-width: 768px) {
+        .card {
+          flex-basis: calc(50% - 20px);
+        }
+      }
+  
+      @media screen and (max-width: 576px) {
+        .card {
+          flex-basis: 100%;
+        }
+      }
+  
