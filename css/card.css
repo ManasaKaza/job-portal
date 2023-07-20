@@ -1,0 +1,38 @@
+div.card
+{
+   margin-left:50px;
+   margin-top: 50px;
+   width:278px;
+   background-color: white;
+   margin-right:50px ;
+   border:1px solid black;
+   height:255px;
+   border-radius:1px;
+}
+.button1 {
+    background-color:white; /* Green */
+    border: 2px green;
+    color: green;
+    padding: 15px 33px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 2px solid #4CAF50;
+}
+.button2 {
+    background-color: white; 
+    border: 2px red;
+    color:red;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border:2px solid #f44336
+}
+    

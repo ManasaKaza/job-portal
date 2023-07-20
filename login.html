@@ -1,0 +1,97 @@
+
+<html>
+    <head>
+<style>
+    form{ width:70%;
+        border: 1px light gray;
+        background-color:white;
+        border-radius:20px;
+    }
+   
+    input[type=text],
+    input[type=password] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
+    button {
+        font-size:100%;
+        background-color: #000080;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+    }
+    button:hover {
+        opacity: 0.8;
+    }  
+    .cancelbtn {
+        font-size: 90%;
+        width: auto;
+        padding: 10px 18px;
+        background-color: #f44336;
+    }
+     
+    .container {
+        width:50%;
+        padding: 5px;
+        height: 80%;
+        background-color:#f1f1f1;
+        box-shadow: 5px 10px 18px #cad1f9;
+  
+    }  
+    span.psw {
+        float: right;
+        padding-top: 16px;
+    }  
+    @media screen and (max-width: 300px) {
+        span.psw {
+            display: block;
+            float: none;
+        }
+        .cancelbtn {
+            width: 100%;
+        }
+    }
+</style>
+</head>
+<body>
+    <center>
+    <form> 
+        <div class="container">
+        <h1 >Login Form</h1>
+        <div class="imgcontainer">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIJF7LAdiF7JlRs24nLsBKz7nWamkcdXPODQ&usqp=CAU"alt="Avatar" class="avatar">
+        </div>
+ 
+        <div >
+            <label style="float:left"><b> Email ID/Username</b></label>
+            <input type="text" placeholder="Enter Username /Email ID" name="uname" required>
+ 
+            <label style="float:left"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+ 
+            <button type="submit" >Login</button>
+            <input type="checkbox" checked="checked"> Remember me
+
+            <a href="index.html"><button type="button" class="cancelbtn">Cancel</button></a>
+            <span class="psw"><a href="#"> Forgot password?</a></span>
+            <span><p>Don't have an account?</p><a href="signup.html">SignUp</a></span>
+
+        </div>
+
+        <!-- <div  style="background-color:#f1f1f1">
+            <a href="index.html"><button type="button" class="cancelbtn">Cancel</button></a>
+            <span class="psw"><a href="#"> Forgot password?</a></span>
+        </div> -->
+        </div>
+    </form>
+</center>
+</body>
+ 
+</html>
